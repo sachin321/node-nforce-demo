@@ -10,6 +10,7 @@ From the command line type in:
 </pre>
 
 ### Node Module Dependencies
+
 These will be automatically installed when you use any of the above *npm* installation methods above.
 
 1. [express](http://expressjs.com/) - framework
@@ -22,6 +23,16 @@ These will be automatically installed when you use any of the above *npm* instal
 1. Open terminal and change directory to node-nforce-demo root
 2. node app.js
 3. Point your browser to: [http://localhost:3001](http://localhost:3001)
+
+### Deploy to Heroku
+
+<pre>  heroku create
+heroku config:add CLIENT_ID=YOUR-SALESFORCE-CLIENT-ID
+heroku config:add CLIENT_SECRET=YOUR-SALESFORCE-SECRET
+heroku config:add USERNAME=YOUR-SALESFORCE-USERNAME
+heroku config:add PASSWORD=YOUR-SALESFORCE-PASSWORD-AND-TOKEN
+heroku open
+</pre>
 
 ## Contributors
 * Jeff Douglas -> [jeffdonthemic](https://github.com/jeffdonthemic)
