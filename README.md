@@ -36,7 +36,7 @@ heroku open
 
 ### Demo on Heroku
 
-This application is running on heroku at: [http://frozen-bayou-9808.herokuapp.com/](http://frozen-bayou-9808.herokuapp.com/)
+This application is running on heroku at: [http://node-nforce-demo.herokuapp.com/](http://node-nforce-demo.herokuapp.com/)
 
 ## Contributors
 * Jeff Douglas -> [jeffdonthemic](https://github.com/jeffdonthemic)
